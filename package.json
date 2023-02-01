@@ -1,0 +1,27 @@
+{
+  "name": "qourier",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "qourier": "./bin/index"
+  },
+  "scripts": {
+    "start": "node index.js --script start",
+    "deploy": "node index.js --script deploy"
+  },
+  "keywords": [
+    "qourier",
+    "web3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cli-table": "^0.3.11",
+    "ethers": "^5.7.2",
+    "gradient-string": "^2.0.2",
+    "minimist": "^1.2.7",
+    "prompts": "^2.4.2"
+  }
+}

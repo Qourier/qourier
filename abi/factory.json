@@ -1,0 +1,145 @@
+[
+  {
+    "inputs": [],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "hub_id",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "hub_address",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "personal",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "price",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes32[10]",
+        "name": "modules",
+        "type": "bytes32[10]"
+      }
+    ],
+    "name": "NewHub",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "hub_address_",
+        "type": "address"
+      }
+    ],
+    "name": "getHubByAddress",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "hub",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "personal",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "task_id",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "price",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32[10]",
+        "name": "modules",
+        "type": "bytes32[10]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "hub_id_",
+        "type": "uint256"
+      }
+    ],
+    "name": "getHubById",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "hub",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "personal",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "task_id",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "price",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32[10]",
+        "name": "modules",
+        "type": "bytes32[10]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "price_",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32[10]",
+        "name": "modules_",
+        "type": "bytes32[10]"
+      },
+      {
+        "internalType": "bool",
+        "name": "personal_",
+        "type": "bool"
+      }
+    ],
+    "name": "newHub",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
