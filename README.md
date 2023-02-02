@@ -93,5 +93,6 @@ contract HowToUse {
 - [ ] Preinstallation of packages
 - [ ] Restriction on module execution
 - [ ] Client on Go / Rust / Python
+- [ ] Interval task
 
 ---
