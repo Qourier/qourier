@@ -44,12 +44,36 @@
       {
         "indexed": false,
         "internalType": "uint256",
+        "name": "tasks",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
         "name": "completedAt",
         "type": "uint256"
       }
     ],
     "name": "Completed",
     "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "task_id_",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes",
+        "name": "result_",
+        "type": "bytes"
+      }
+    ],
+    "name": "completeTask",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
   },
   {
     "anonymous": false,
@@ -81,6 +105,12 @@
       {
         "indexed": false,
         "internalType": "uint256",
+        "name": "tasks",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
         "name": "createdAt",
         "type": "uint256"
       }
@@ -91,30 +121,12 @@
   {
     "inputs": [
       {
-        "internalType": "uint256",
-        "name": "task_id_",
-        "type": "uint256"
-      },
-      {
-        "internalType": "bytes",
-        "name": "result_",
-        "type": "bytes"
-      }
-    ],
-    "name": "completeTask",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
         "internalType": "bytes32",
         "name": "module_",
         "type": "bytes32"
       }
     ],
-    "name": "createTask",
+    "name": "createTask0",
     "outputs": [],
     "stateMutability": "payable",
     "type": "function"
@@ -212,6 +224,26 @@
   {
     "inputs": [
       {
+        "internalType": "uint256",
+        "name": "task_id_",
+        "type": "uint256"
+      }
+    ],
+    "name": "topUpTask",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "withdraw",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
         "internalType": "address",
         "name": "qourier_",
         "type": "address"
@@ -295,6 +327,11 @@
           },
           {
             "internalType": "uint256",
+            "name": "tasks",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
             "name": "createdAt",
             "type": "uint256"
           },
@@ -323,13 +360,6 @@
       }
     ],
     "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "withdraw",
-    "outputs": [],
-    "stateMutability": "payable",
     "type": "function"
   }
 ]
