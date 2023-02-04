@@ -21,7 +21,7 @@ export default {
     abi: f,
     contract: {
       localhost: "0x5FbDB2315678afecb367f032d93F642f64180aa3",
-      filecoin: "0x38c8A563b4873FEEd2B3a592bA08ce8BAE59Df8d",
+      filecoin: "0xCF15c0eF3f8EdE35C2CFa1ca5395Ef5644A7eFD2",
     },
   },
   hub: {

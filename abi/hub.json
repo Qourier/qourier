@@ -58,24 +58,6 @@
     "type": "event"
   },
   {
-    "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "task_id_",
-        "type": "uint256"
-      },
-      {
-        "internalType": "bytes",
-        "name": "result_",
-        "type": "bytes"
-      }
-    ],
-    "name": "completeTask",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
     "anonymous": false,
     "inputs": [
       {
@@ -117,6 +99,24 @@
     ],
     "name": "Created",
     "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "task_id_",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes",
+        "name": "result_",
+        "type": "bytes"
+      }
+    ],
+    "name": "completeTask",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
   },
   {
     "inputs": [
@@ -217,26 +217,6 @@
       }
     ],
     "name": "createTask5",
-    "outputs": [],
-    "stateMutability": "payable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "task_id_",
-        "type": "uint256"
-      }
-    ],
-    "name": "topUpTask",
-    "outputs": [],
-    "stateMutability": "payable",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "withdraw",
     "outputs": [],
     "stateMutability": "payable",
     "type": "function"
@@ -360,6 +340,26 @@
       }
     ],
     "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "task_id_",
+        "type": "uint256"
+      }
+    ],
+    "name": "topUpTask",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "withdraw",
+    "outputs": [],
+    "stateMutability": "payable",
     "type": "function"
   }
 ]
