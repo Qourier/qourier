@@ -116,6 +116,9 @@ const string = [
 const parseArgv = (argv) => {
   argv.start = argv.start ? argv.start === "true" : undefined;
   argv.personal = argv.personal ? argv.personal === "true" : undefined;
+  if (process.env.PRIVATE_KEY) {
+    argv.key = argv.key ? argv.key : process.env.PRIVATE_KEY;
+  }
   return argv;
 };
 
