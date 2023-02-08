@@ -48,6 +48,12 @@ qourier \
 
 ## Example
 
+- **PushProtocol**
+  - <a href="https://www.npmjs.com/package/qourier-module-v0-push-protocol">qourier-module-v0-push-protocol</a>
+  - <a href="https://github.com/Qourier/contracts/blob/main/src/example/PushProtocol.sol">PushProtocol.sol</a>
+- **LighthouseWeb3**
+  - <a href="https://www.npmjs.com/package/qourier-module-v0-lighthouse-web3">qourier-module-v0-lighthouse-web3</a>
+  - <a href="https://github.com/Qourier/contracts/blob/main/src/example/LighthouseWeb3.sol">LighthouseWeb3.sol</a>
 - **SumOfNumbers**
   - <a href="https://www.npmjs.com/package/qourier-module-v0-sum-of-numbers">qourier-module-v0-sum-of-numbers</a>
   - <a href="https://github.com/Qourier/contracts/blob/main/src/example/SumOfNumbers.sol">SumOfNumbers.sol</a>
