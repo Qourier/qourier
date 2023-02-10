@@ -54,6 +54,9 @@ qourier \
 - **LighthouseWeb3**
   - <a href="https://www.npmjs.com/package/qourier-module-v0-lighthouse-web3">qourier-module-v0-lighthouse-web3</a>
   - <a href="https://github.com/Qourier/contracts/blob/main/src/example/LighthouseWeb3.sol">LighthouseWeb3.sol</a>
+- **RandomOrg**
+  - <a href="https://www.npmjs.com/package/qourier-module-v0-random-org">qourier-module-v0-random-org</a>
+  - <a href="https://github.com/Qourier/contracts/blob/main/src/example/RandomOrg.sol">RandomOrg.sol</a>
 - **SumOfNumbers**
   - <a href="https://www.npmjs.com/package/qourier-module-v0-sum-of-numbers">qourier-module-v0-sum-of-numbers</a>
   - <a href="https://github.com/Qourier/contracts/blob/main/src/example/SumOfNumbers.sol">SumOfNumbers.sol</a>
